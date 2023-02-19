@@ -1,0 +1,9 @@
+info={"first_name":"leo",
+      "last_name":"gabi",
+      "age":29,
+      "city":"london"
+      }
+print(info["first_name"])
+print(info["last_name"])
+print(info["age"])
+print(info["city"])

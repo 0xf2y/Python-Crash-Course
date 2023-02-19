@@ -1,0 +1,19 @@
+info0={"first_name":"leo",
+      "last_name":"trossard",
+      "age":29,
+      "city":"london"
+      }
+info1={"first_name":"ben",
+      "last_name":"white",
+      "age":24,
+      "city":"london"
+      }
+info2={"first_name":"gabriel",
+      "last_name":"martenelli",
+      "age":21,
+      "city":"london"
+      }
+people=[info0,info1,info2]
+print(people)
+for person in people:
+    print(f'{person["first_name"]}\n{person["last_name"]}\n{person["age"]}\n{person["city"]}')
