@@ -1,7 +1,7 @@
 from operator import le
 
 
-Guests=["Abdulrahman","Atif","Attia"]
+Guests=["roberto","carlos","junior"]
 print("we u found a bigger dinner table.")
 Guests.append("Mustafa")
 Guests.insert(3,"Assheaf")
